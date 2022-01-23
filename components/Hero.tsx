@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedinIn, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaArrowDown, FaTwitter } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
           Hakan Gundogdu
         </h1>
-        <p className=" text-xl leading-relaxed">
+        <p className=" text-lg sm:text-xl leading-relaxed">
           Frontend Developer based in{' '}
           <a
             className="hover:text-sky-500"
@@ -69,6 +69,9 @@ const Hero = () => {
           </svg>
         </a>
       </div>
+      {/* <div className=" mx-auto items-center bg-sky-100 text-sky-500 border-0 py-3 px-3  rounded-full animate-bounce ">
+        <FaArrowDown />
+      </div> */}
     </section>
   );
 };
