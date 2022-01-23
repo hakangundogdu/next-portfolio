@@ -2,19 +2,19 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <header className="text-gray-900  body-font">
+    <header className="text-slate-500  body-font">
       <div className="container mx-auto mt-5 flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href="/" className="flex text-gray-900 hover:text-gray-500 ">
+        <a href="/" className="flex text-slate-500 hover:text-slate-800 ">
           <span className="ml-3 text-lg ">Hakan Gundogdu</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a href="/about" className="mr-5 hover:text-gray-500">
+          <a href="/about" className="mr-5 hover:text-sky-500">
             About
           </a>
-          <a href="/work" className="mr-5 hover:text-gray-500">
+          <a href="/work" className="mr-5 hover:text-sky-500">
             Work
           </a>
-          <a href="/testimonials" className="mr-5 hover:text-gray-500 ">
+          <a href="/testimonials" className="mr-5 hover:text-sky-500 ">
             Testimonials
           </a>
         </nav>

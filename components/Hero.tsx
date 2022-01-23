@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedinIn, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <section className="container text-gray-400 px-5 py-36 flex flex-col content-center    ">
+    <section className="container text-slate-500 px-5 py-36 flex flex-col content-center    ">
       <div className=" mx-auto flex flex-col text-center animate-fade ">
         <h1 className="sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
           Hakan Gundogdu
@@ -11,7 +11,7 @@ const Hero = () => {
         <p className=" text-xl leading-relaxed">
           Frontend Developer based in{' '}
           <a
-            className="hover:text-gray-600"
+            className="hover:text-sky-500"
             href="https://en.wikipedia.org/wiki/izmir"
             target="_blank"
             rel="noreferrer"
