@@ -4,8 +4,8 @@ const Nav = () => {
   return (
     <header className="text-slate-500  body-font">
       <div className="container mx-auto mt-5 flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href="/" className="flex text-slate-500 hover:text-slate-800 ">
-          <span className="ml-3 text-lg ">Hakan Gundogdu</span>
+        <a href="/" className="flex    items-center">
+          <img src="/logo.svg" alt="Logo" className="h-8" />
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <a href="/about" className="mr-5 hover:text-sky-500">
