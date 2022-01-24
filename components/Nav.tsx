@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
   return (
     <header className="text-slate-500  body-font">
-      <div className="container mx-auto mt-5 flex flex-wrap px-10 flex-col md:flex-row items-center">
+      <div className="container mx-auto mt-5 flex flex-wrap flex-col md:flex-row items-center">
         <a href="/" className="flex    items-center">
           <img src="/logo.svg" alt="Logo" className="h-8" />
         </a>

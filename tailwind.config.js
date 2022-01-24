@@ -6,7 +6,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter'],
+        sans: [
+          'Inter',
+          'ui-sans-serif',
+          'system-ui',
+          '-apple-system',
+          'sans-serif',
+        ],
       },
       keyframes: {
         fade: {
