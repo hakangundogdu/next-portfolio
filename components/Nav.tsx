@@ -1,32 +1,93 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Nav = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const menuOpenHandler = (event: any) => {
+    setIsOpen(true);
+  };
+  const menuCloseHandler = (event: any) => {
+    setIsOpen(false);
+  };
+
   return (
     <header className="text-slate-500  body-font">
-      <div className="container mx-auto mt-5 flex flex-wrap flex-col md:flex-row items-center">
-        <a href="/" className="flex    items-center">
+      <nav className="container mx-auto mt-6 flex justify-between px-6 md:px-12 items-center  md:max-w-screen-lg">
+        <a href="/" className="flex  items-center">
           <img src="/logo.svg" alt="Logo" className="h-8" />
         </a>
-        <nav className=" md:ml-auto hidden md:flex flex-wrap items-center text-base  justify-center">
-          <a href="/about" className="mr-16 hover:text-sky-500">
+        <div className=" md:ml-auto hidden md:flex  text-base space-x-12 justify-center">
+          <a href="#about" className=" hover:text-slate-900 ">
             About
           </a>
-          <a href="/work" className="mr-16 hover:text-sky-500">
-            Work
+          <a href="/work" className=" hover:text-slate-900">
+            Projects
           </a>
-          <a href="/testimonials" className="mr-16 mr- hover:text-sky-500 ">
+          <a href="/testimonials" className="  hover:text-slate-900 ">
             Testimonials
           </a>
           <a
             href="mailto:hakan.gundogdu@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="group inline-flex items-center bg-sky-100 text-sky-500 border-0 py-1 px-3 focus:outline-none hover:bg-sky-500 hover:text-white  rounded-full text-base  mt-4 md:mt-0 shadow-xl"
+            className=" hover:text-slate-900"
           >
             Contact
           </a>
-        </nav>
-      </div>
+        </div>
+        {!isOpen && (
+          <button
+            className=" flex md:hidden text-2xl text-slate-900"
+            onClick={menuOpenHandler}
+          >
+            <FaBars />
+          </button>
+        )}
+
+        {isOpen && (
+          <button
+            className=" flex md:hidden text-2xl text-slate-900"
+            onClick={menuCloseHandler}
+          >
+            <FaTimes />
+          </button>
+        )}
+      </nav>
+      {isOpen && (
+        <div className=" absolute z-10 block h-screen w-full bg-gradient-to-b from-primary md:hidden">
+          <div className="mx-6 mt-6 flex h-96 text-xl text-slate-900 flex-col items-center justify-center space-y-8 bg-white ">
+            <a
+              className=" text-primary"
+              href="#about"
+              onClick={menuCloseHandler}
+            >
+              About
+            </a>
+            <a
+              className=" text-primary"
+              href="#projects"
+              onClick={menuCloseHandler}
+            >
+              Projects
+            </a>
+            <a
+              className=" text-primary"
+              href="#testimonials"
+              onClick={menuCloseHandler}
+            >
+              Testimonials
+            </a>
+            <a
+              className=" text-primary"
+              href="#contact"
+              onClick={menuCloseHandler}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      )}
     </header>
   );
 };

@@ -2,10 +2,11 @@ import Head from 'next/head';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import Up from '../components/Up';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center  py-2">
+    <div className="flex flex-col items-center justify-center scroll-smooth	 md:max-w-screen-lg mx-auto py-2">
       <Head>
         <title>Hakan Gundogdu</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,6 +16,7 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
+      <Up />
       <Hero />
       <Skills />
       <About />
