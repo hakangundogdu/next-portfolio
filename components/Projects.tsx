@@ -4,18 +4,22 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="container  px-4 sm:px-12 py-16 flex flex-col  animate-fade    "
+      className="container px-4 sm:px-12 py-16   animate-fade    "
     >
-      <div className=" relative  py-16  rounded-xl bg-slate-100  px-8 shadow-xl">
-        <h1 className="text-2xl mb-6 font-bold text-slate-900">Projects</h1>
+      <h1 className="text-2xl mb-6 font-bold text-slate-900">Projects</h1>
 
-        <div className="grid-cols-2 gap-12 ">
-          <div className=" relative flex flex-col py-16  rounded-xl bg-slate-100  px-8 shadow-xl">
-            <p className=" text-lg  text-slate-400 "> text </p>
-          </div>
-          <div className=" relative flex flex-col py-16  rounded-xl bg-slate-100  px-8 shadow-xl">
-            <p className=" text-lg  text-slate-400 "> text </p>
-          </div>
+      <div className="container grid md:grid-cols-2 grid-cols-1 gap-4 ">
+        <div className=" pt-8  rounded-xl bg-gradient-to-br from-teal-500 to-cyan-800  px-8 shadow-md aspect-square">
+          <p className=" text-xl font-semibold  text-slate-100 "> Project 1 </p>
+        </div>
+        <div className="  pt-8  rounded-xl bg-gradient-to-bl from-blue-400 via-blue-600 to-blue-900  px-8 aspect-square shadow-md">
+          <p className=" text-xl font-semibold  text-slate-100"> Project 2 </p>
+        </div>
+        <div className="   pt-8  rounded-xl bg-gradient-to-tr from-yellow-500  to-orange-700  px-8 shadow-md aspect-square">
+          <p className=" text-xl font-semibold  text-slate-100 "> Project 3 </p>
+        </div>
+        <div className="   pt-8  rounded-xl bg-gradient-to-tr from-rose-700 to-pink-600  px-8 aspect-square shadow-md">
+          <p className=" text-xl font-semibold  text-slate-100 "> Project 4 </p>
         </div>
       </div>
     </section>
