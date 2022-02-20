@@ -18,11 +18,11 @@ const Testimonials = () => {
       id="testimonials"
       className="container  px-4 sm:px-12 py-16 flex flex-col  animate-fade   "
     >
+      <h1 className="text-2xl mb-6 font-bold text-slate-900">Testimonials</h1>
       <div className=" relative flex flex-col py-16  rounded-xl bg-slate-900  px-8 shadow-xl">
-        <h1 className="text-2xl mb-6 font-bold text-slate-100">Testimonials</h1>
-        <p className=" text-lg  text-slate-400 "> {list[item]} </p>
+        <p className=" text-lg mb-8 text-slate-400 "> {list[item]} </p>
 
-        <div className="flex space-x-2 absolute right-8 bottom-8 items-center mt-4">
+        <div className="flex space-x-2 absolute right-8 bottom-8 items-center ">
           <button
             onClick={nextItem}
             className="   bg-slate-700 hover:bg-slate-400 text-slate-400 hover:text-slate-50 py-2 px-2 rounded-lg "

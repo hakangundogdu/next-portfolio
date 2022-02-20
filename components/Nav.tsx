@@ -21,10 +21,10 @@ const Nav = () => {
           <a href="#about" className=" hover:text-slate-900 ">
             About
           </a>
-          <a href="/work" className=" hover:text-slate-900">
+          <a href="#projects" className=" hover:text-slate-900">
             Projects
           </a>
-          <a href="/testimonials" className="  hover:text-slate-900 ">
+          <a href="#testimonials" className="  hover:text-slate-900 ">
             Testimonials
           </a>
           <a
