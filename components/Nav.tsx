@@ -18,7 +18,7 @@ const Nav = () => {
   const changeURL = () => {
     setTimeout(() => {
       router.push('/');
-    }, 5);
+    }, 1);
   };
 
   return (
