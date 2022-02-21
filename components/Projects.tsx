@@ -6,10 +6,10 @@ const Projects = () => {
       id="projects"
       className="container px-4 sm:px-12 py-16   animate-fade    "
     >
-      <h1 className="text-2xl mb-6 font-bold text-slate-900">Projects</h1>
-      <div className="container  ">
-        <div className=" flex border-slate-200 overflow-hidden border rounded-xl ">
-          <div className="w-1/2   ">
+      <h1 className="text-2xl mb-6 font-bold  text-slate-900">Projects</h1>
+      <div className="container   ">
+        <div className=" flex flex-col md:flex-row  overflow-hidden border border-slate-200 shadow-xl rounded-xl ">
+          <div className="w-full md:w-1/2   ">
             <img
               src="/images/project-1.png"
               alt="project"
@@ -17,7 +17,7 @@ const Projects = () => {
             />{' '}
           </div>
 
-          <div className="w-1/2 bg-gradient-to-br from-teal-500 to-cyan-800 flex flex-col justify-between px-8 py-8">
+          <div className="md:w-1/2 w-full bg-gradient-to-br from-teal-500 to-cyan-800 flex flex-col justify-between px-8 py-8">
             <div>
               <p className=" text-xl  mb-4 font-semibold  text-white">
                 {' '}
@@ -29,17 +29,23 @@ const Projects = () => {
 
             <div className="flex space-x-4  text-sm font-medium">
               <div className="flex-auto flex space-x-4">
-                <button
-                  className="h-10 px-6 font-semibold rounded-md bg-slate-900 text-white"
-                  type="submit"
-                >
-                  Live
+                <button className="h-10 px-6 font-semibold rounded-md bg-slate-900 text-white">
+                  <a
+                    href="https://easybank-hakangundogdu.vercel.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live{' '}
+                  </a>
                 </button>
-                <button
-                  className="h-10 px-6 font-semibold rounded-md border border-slate-300 bg-teal-100 text-teal-500"
-                  type="button"
-                >
-                  Code
+                <button className="h-10 px-6 font-semibold rounded-md border border-slate-300 bg-teal-100 text-teal-500">
+                  <a
+                    href="https://github.com/hakangundogdu/easybank"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Code
+                  </a>
                 </button>
               </div>
             </div>

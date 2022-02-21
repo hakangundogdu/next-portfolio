@@ -18,7 +18,7 @@ const Testimonials = () => {
       id="testimonials"
       className="container  px-4 sm:px-12 py-16 flex flex-col  animate-fade   "
     >
-      <h1 className="text-2xl mb-6 font-bold text-slate-900">Testimonials</h1>
+      <h2 className="text-2xl mb-6 font-bold text-slate-900">Testimonials</h2>
       <div className=" relative flex flex-col py-16  rounded-xl bg-slate-900  px-8 shadow-xl">
         <p className=" text-lg mb-8 text-slate-400 "> {list[item]} </p>
 
