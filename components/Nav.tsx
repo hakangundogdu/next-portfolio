@@ -36,13 +36,13 @@ const Nav = () => {
         </div>
 
         <div className=" md:ml-auto hidden md:flex  text-base space-x-12 justify-center">
-          <a href="#about" className=" hover:text-slate-900 ">
+          <a href="/#about" className=" hover:text-slate-900 ">
             About
           </a>
-          <a href="#projects" className=" hover:text-slate-900">
+          <a href="/#projects" className=" hover:text-slate-900">
             Projects
           </a>
-          <a href="#testimonials" className="  hover:text-slate-900 ">
+          <a href="/#testimonials" className="  hover:text-slate-900 ">
             Testimonials
           </a>
           <a
