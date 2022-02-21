@@ -2,8 +2,8 @@ import React from 'react';
 
 const cv = () => {
   return (
-    <div className="container    mx-auto h-screen  ">
-      <iframe height="100%" width="100%" src="/HakanGundogdu.pdf"></iframe>
+    <div className=" mx-auto flex items-center justify-center h-screen  ">
+      <embed height="100%" width="100%" src="/HakanGundogdu.pdf"></embed>
     </div>
   );
 };
