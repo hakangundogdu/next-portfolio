@@ -17,23 +17,6 @@ const Nav = () => {
         <a href="/" className="flex  items-center">
           <img src="/logo.svg" alt="Logo" className="h-8" />
         </a>
-
-        <div className="group md:ml-5 items-center border border-gray-200 rounded-lg relative px-3 py-1.5 text-xs font-medium">
-          <span className="group-hover:hidden w-2.5 h-2.5 bg-teal-500 rounded-full absolute -top-1 -right-1"></span>
-          <span className="group-hover:hidden text-slate-900 ">
-            Open to Work
-          </span>{' '}
-          <div className="hidden group-hover:block text-slate-900 ">
-            <a
-              href="mailto:hakan.gundogdu@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Contact Me
-            </a>
-          </div>
-          <span className="group-hover:hidden animate-ping w-2.5 h-2.5 bg-teal-500/75 rounded-full absolute -top-1 -right-1"></span>
-        </div>
         <div className=" md:ml-auto hidden md:flex  text-base space-x-12 justify-center">
           <a href="#about" className=" hover:text-slate-900 ">
             About
@@ -72,7 +55,7 @@ const Nav = () => {
         )}
       </nav>
       {isOpen && (
-        <div className=" absolute z-10 block h-screen w-full bg-gradient-to-b from-primary md:hidden">
+        <div className=" absolute z-50 block h-screen w-full bg-gradient-to-b from-primary md:hidden">
           <div className="mx-6 mt-6 flex h-96 text-xl text-slate-900 flex-col items-center justify-center space-y-8 bg-white ">
             <a
               className=" text-primary"
