@@ -17,13 +17,13 @@ const Projects = () => {
             />{' '}
           </div>
 
-          <div className="md:w-1/2 w-full bg-gradient-to-br from-teal-500 to-cyan-800 flex flex-col justify-between px-8 py-8">
+          <div className="md:w-1/2 w-full bg-gradient-to-br from-teal-500 to-teal-600 flex flex-col justify-between px-8 py-8">
             <div>
               <p className=" text-xl  mb-4 font-semibold  text-white">
                 {' '}
                 EasyBank Landing Page{' '}
               </p>
-              <p className="  mb-4  text-teal-100"> EasyBank Landing Page </p>
+              <p className="  mb-4  text-teal-100"> Responsive Landing Page</p>
               <p className="  mb-4  text-teal-100"> React / NextJS</p>
             </div>
 
