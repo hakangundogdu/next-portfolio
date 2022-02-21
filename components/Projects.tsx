@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="container px-4 sm:px-12 py-16   animate-fade    "
+      className="container px-4 sm:px-12 pt-16   animate-fade    "
     >
       <h1 className="text-2xl mb-6 font-bold  text-slate-900">Projects</h1>
       <div className="container   ">

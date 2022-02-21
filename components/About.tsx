@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="container text-slate-400  px-4 sm:px-12 py-16 flex flex-col  animate-fade   "
+      className="container text-slate-400  px-4 sm:px-12 pt-16 flex flex-col  animate-fade   "
     >
       <div className="  flex flex-col py-16  rounded-xl bg-slate-900  px-8 shadow-xl">
         <h1 className="text-2xl mb-6 font-bold text-slate-100">About Me </h1>
