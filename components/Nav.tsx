@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +11,14 @@ const Nav = () => {
   };
   const menuCloseHandler = (event: any) => {
     setIsOpen(false);
+  };
+
+  const router = useRouter();
+
+  const changeURL = () => {
+    setTimeout(() => {
+      router.push('/');
+    }, 5);
   };
 
   return (
@@ -36,23 +46,30 @@ const Nav = () => {
         </div>
 
         <div className=" md:ml-auto hidden md:flex  text-base space-x-12 justify-center">
-          <a href="/#about" className=" hover:text-slate-900 ">
-            About
-          </a>
-          <a href="/#projects" className=" hover:text-slate-900">
-            Projects
-          </a>
-          <a href="/#testimonials" className="  hover:text-slate-900 ">
-            Testimonials
-          </a>
-          <a
-            href="mailto:hakan.gundogdu@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            className=" hover:text-slate-900"
-          >
-            Contact
-          </a>
+          <Link href="/#about">
+            <a className=" hover:text-slate-900 " onClick={changeURL}>
+              About
+            </a>
+          </Link>
+          <Link href="/#projects">
+            <a className=" hover:text-slate-900 " onClick={changeURL}>
+              Projects
+            </a>
+          </Link>
+          <Link href="/#testimonials">
+            <a className=" hover:text-slate-900 " onClick={changeURL}>
+              Testimonials
+            </a>
+          </Link>
+          <Link href="/#testimonials">
+            <a
+              href="mailto:hakan.gundogdu@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact
+            </a>
+          </Link>
         </div>
         {!isOpen && (
           <button
