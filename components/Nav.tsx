@@ -17,6 +17,23 @@ const Nav = () => {
         <a href="/" className="flex  items-center">
           <img src="/logo.svg" alt="Logo" className="h-8" />
         </a>
+
+        <div className="group md:ml-5 items-center border border-gray-200 rounded-lg relative px-2 py-1.5 text-xs font-medium">
+          <span className="w-2.5 h-2.5 bg-teal-500 rounded-full absolute -top-1 -right-1"></span>
+          <span className="group-hover:hidden text-slate-900 ml-1.5">
+            Open to Work
+          </span>{' '}
+          <div className="hidden group-hover:block text-slate-900 ml-1.5">
+            <a
+              href="mailto:hakan.gundogdu@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact
+            </a>
+          </div>
+          <span className="animate-ping w-2.5 h-2.5 bg-teal-500/75 rounded-full absolute -top-1 -right-1"></span>
+        </div>
         <div className=" md:ml-auto hidden md:flex  text-base space-x-12 justify-center">
           <a href="#about" className=" hover:text-slate-900 ">
             About
