@@ -38,6 +38,10 @@ module.exports = {
         fade: 'fade 1s ease-out both',
         slide: 'slide 30s linear infinite alternate',
       },
+
+      backgroundImage: {
+        hero: "url('/images/hero-3.jpg')",
+      },
     },
   },
   plugins: [],
