@@ -21,6 +21,24 @@ const Projects = () => {
       style:
         'w-full bg-gradient-to-br from-blue-400  to-blue-900  flex flex-col justify-between px-8 py-8',
     },
+    {
+      image: '/images/project-3.png',
+      title: 'Project Card',
+      description: 'React / Hooks / SCSS',
+      live: 'hakangundogdu.github.io/task-app/',
+      code: 'https://github.com/hakangundogdu/task-app',
+      style:
+        'w-full bg-gradient-to-br from-slate-500  to-slate-700  flex flex-col justify-between px-8 py-8',
+    },
+    {
+      image: '/images/project-4.png',
+      title: 'Task App',
+      description: 'React / Hooks / SCSS',
+      live: 'hakangundogdu.github.io/project-card/',
+      code: 'https://github.com/hakangundogdu/project-card',
+      style:
+        'w-full bg-gradient-to-br from-pink-600  to-rose-500  flex flex-col justify-between px-8 py-8',
+    },
   ];
 
   const projects = projectList.map((item) => {

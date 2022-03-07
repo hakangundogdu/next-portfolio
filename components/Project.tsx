@@ -33,7 +33,7 @@ const Project = ({
               <p className=" text-2xl  mb-4 font-semibold  text-white">
                 {title}
               </p>
-              <p className="  mb-4  text-teal-100">{description}</p>
+              <p className="  mb-4  text-white">{description}</p>
             </div>
             <div className="flex space-x-4  text-sm font-medium">
               <div className="flex-auto flex space-x-4">
