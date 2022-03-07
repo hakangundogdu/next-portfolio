@@ -2,7 +2,7 @@
 
 - [Live](https://hakangundogdu.com)
 
-<img src="/public/images/project-0-1.png" widht="200px" height= auto />
+<img src="/public/images/project-0-1.png" widht="50%" height= auto />
 
 <a href="https://hakangundogdu.github.io/next-portfolio/">![NWS](/public/images/project-0-1.png)</a>
 <a href="https://hakangundogdu.github.io/next-portfolio/">![NWS](/public/images/project-0-2.png)</a>
