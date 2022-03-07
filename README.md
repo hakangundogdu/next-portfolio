@@ -2,13 +2,8 @@
 
 - [Live](https://hakangundogdu.com)
 
-::                         |  ::
-:-------------------------:|:-------------------------:
-![](/public/images/project-0-1.png)  |  ![](/public/images/project-0-2.png)
-
-  Image -1        
-:-------------------------:|:-------------------------:
-![](/public/images/project-0-1.png)  |  ![](/public/images/project-0-2.png)
+| :![](/public/images/project-0-1.png): | :![](/public/images/project-0-2.png):|
+|-|-|
 
 
 <p float="left">
