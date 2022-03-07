@@ -28,7 +28,6 @@ const Project = ({
               className=" w-full object-contain   "
             />{' '}
           </div>
-
           <div className={style}>
             <div>
               <p className=" text-2xl  mb-4 font-semibold  text-white">
@@ -36,7 +35,6 @@ const Project = ({
               </p>
               <p className="  mb-4  text-teal-100">{description}</p>
             </div>
-
             <div className="flex space-x-4  text-sm font-medium">
               <div className="flex-auto flex space-x-4">
                 <button className="h-10 px-6 font-semibold rounded-md bg-slate-900 text-white">
