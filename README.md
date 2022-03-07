@@ -2,7 +2,9 @@
 
 - [Live](https://hakangundogdu.com)
 
-<a href="https://hakangundogdu.github.io/next-portfolio/">![NWS](public/images/project-0-1.png)</a>
+<img src="/public/images/project-0-1.png" widht="200" height= auto />
+
+<a href="https://hakangundogdu.github.io/next-portfolio/">![NWS](/public/images/project-0-1.png)</a>
 <a href="https://hakangundogdu.github.io/next-portfolio/">![NWS](/public/images/project-0-2.png)</a>
 
 ### Deployed using [Vercel](https://vercel.com)
