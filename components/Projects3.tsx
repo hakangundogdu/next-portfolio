@@ -10,7 +10,7 @@ const Projects = () => {
       live: 'https://easybank-git-main-hakangundogdu.vercel.app/',
       code: 'https://github.com/hakangundogdu/easybank',
       style:
-        ' w-full bg-gradient-to-br from-teal-500 to-teal-600 flex flex-col justify-between px-8 py-8',
+        'md:w-1/2 w-full bg-gradient-to-br from-teal-500 to-teal-600 flex flex-col justify-between px-8 py-8',
     },
     {
       image: '/images/project-2.png',
@@ -19,7 +19,7 @@ const Projects = () => {
       live: 'https://hakangundogdu.github.io/Natural-Events-Tracker/',
       code: 'https://github.com/hakangundogdu/Natural-Events-Tracker',
       style:
-        'w-full bg-gradient-to-br from-blue-400  to-blue-900  flex flex-col justify-between px-8 py-8',
+        'md:w-1/2 w-full bg-gradient-to-br from-blue-400  to-blue-900  flex flex-col justify-between px-8 py-8',
     },
   ];
 
@@ -42,7 +42,7 @@ const Projects = () => {
       className="container px-4 sm:px-12 pt-16   animate-fade    "
     >
       <h1 className="text-2xl mb-6 font-bold  text-slate-900">Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 "> {projects} </div>
+      {projects}
     </section>
   );
 };

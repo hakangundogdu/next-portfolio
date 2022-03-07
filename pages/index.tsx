@@ -5,6 +5,7 @@ import Skills from '../components/Skills';
 import Up from '../components/Up';
 import Testimonials from '../components/Testimonials';
 import Projects from '../components/Projects';
+import ProjectsNew from '../components/Projects';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <Skills />
       <About />
       <Projects />
+
       <Testimonials />
       <Footer />
     </div>
