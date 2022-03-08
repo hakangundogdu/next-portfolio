@@ -23,19 +23,19 @@ const Projects = () => {
     },
     {
       image: '/images/project-3.png',
-      title: 'Project Card',
+      title: 'Task App',
       description: 'React / Hooks / SCSS',
-      live: 'hakangundogdu.github.io/task-app/',
+      live: 'https://hakangundogdu.github.io/task-app/',
       code: 'https://github.com/hakangundogdu/task-app',
       style:
         'w-full bg-gradient-to-br from-slate-500  to-slate-700  flex flex-col justify-between px-8 py-8',
     },
     {
       image: '/images/project-4.png',
-      title: 'Task App',
-      description: 'React / Hooks / SCSS',
-      live: 'hakangundogdu.github.io/project-card/',
-      code: 'https://github.com/hakangundogdu/project-card',
+      title: 'Ecommerce Website',
+      description: 'React / Hooks / CSS Modules',
+      live: 'https://figma-ecommerce.vercel.app/',
+      code: 'https://github.com/hakangundogdu/figma-ecommerce',
       style:
         'w-full bg-gradient-to-br from-pink-600  to-rose-500  flex flex-col justify-between px-8 py-8',
     },
