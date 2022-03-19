@@ -9,20 +9,8 @@ const About = () => {
       <div className="  flex flex-col py-16  rounded-xl bg-slate-900  px-8 shadow-xl">
         <h1 className="text-2xl mb-6 font-bold text-slate-100">About Me </h1>
         <p className=" text-lg leading-relaxed">
-          I'm a React, Frontend Developer with 2+ years of experience, currently
-          looking for new opportunities. I have been a top-rated freelancer for
-          3 years on
-          <a
-            className=" text-slate-50"
-            href="https://www.upwork.com/freelancers/hakan"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {' '}
-            Upwork.{' '}
-          </a>
-          I helped +200 clients with designing/developing websites and marketing
-          materials.
+          I'm a React, Frontend Developer with 2+ years of experience. <br /> I
+          am skilled in React / NextJS / Typescript / Javascript / TailwindCSS.
         </p>
       </div>
     </section>
