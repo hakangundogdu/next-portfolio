@@ -25,7 +25,7 @@ const Project = ({
             <img
               src={image}
               alt="project"
-              className=" w-full object-contain   "
+              className=" w-full object-fit h-[19rem]  "
             />{' '}
           </div>
           <div className={style}>
