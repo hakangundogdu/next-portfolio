@@ -27,7 +27,7 @@ const Footer = () => {
             href="https://github.com/hakangundogdu"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center bg-slate-100 text-slate-500 0 py-3 px-3  hover:bg-slate-700 hover:text-white rounded-xl text-base  mt-4 md:mt-0 hover:shadow-xl"
+            className="inline-flex items-center  text-slate-500 0 py-3 px-3  hover:bg-slate-700 hover:text-white rounded-xl text-base  mt-4 md:mt-0 hover:shadow-xl"
           >
             <FaGithub className="h-6 w-6" />
           </a>
