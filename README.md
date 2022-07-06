@@ -2,10 +2,7 @@
 
 - [Live](https://hakangundogdu.com)
 
-<<<<<<< HEAD
-<a href="https://hakangundogdu.github.io/next-portfolio/">![NWS](/images/project-0-1.png)</a>
-<a href="https://hakangundogdu.github.io/next-portfolio/">![NWS](/images/project-0-2.png)</a>
-=======
+
 | ![](/public/images/project-0-1.png) | ![](/public/images/project-0-2.png)|
 |-|-|
 
