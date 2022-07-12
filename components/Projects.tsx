@@ -6,7 +6,7 @@ import { FiArrowUpRight } from 'react-icons/fi';
 const Projects = () => {
   const projectList = [
     {
-      image: '/images/main-1.png',
+      image: '/images/main.png',
       title: 'Real Estate Website',
       description: 'React / Redux / Auth / Firebase / API / Google Maps  ',
       live: 'https://hakangundogdu.github.io/real-estate-app/',
