@@ -6,6 +6,15 @@ import { FiArrowUpRight } from 'react-icons/fi';
 const Projects = () => {
   const projectList = [
     {
+      image: '/images/main-1.png',
+      title: 'Real Estate Website',
+      description: 'React / Redux / Auth / Firebase / API / Google Maps  ',
+      live: 'https://hakangundogdu.github.io/real-estate-app/',
+      code: 'https://github.com/hakangundogdu/real-estate-app',
+      style:
+        'w-full bg-gradient-to-br from-blue-400  to-blue-900  flex flex-col justify-between px-8 py-8',
+    },
+    {
       image: '/images/project-4.png',
       title: 'Ecommerce Website',
       description: 'React / Hooks / CSS Modules',
@@ -14,6 +23,7 @@ const Projects = () => {
       style:
         'w-full bg-gradient-to-br from-pink-600  to-rose-500  flex flex-col justify-between px-8 py-8',
     },
+
     {
       image: '/images/project-3.png',
       title: 'Task App',
@@ -64,6 +74,7 @@ const Projects = () => {
       className="container px-4 sm:px-12 pt-16   animate-fade    "
     >
       <h1 className="text-2xl mb-6 font-bold  text-slate-900">Projects</h1>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 "> {projects} </div>
       <a
         className="group inline-flex items-center gap-1 justify-self-end  rounded-xl py-2 px-6 focus:outline-none focus:ring-2 bg-slate-100 text-slate-600 hover:bg-slate-800 hover:text-white shadow-md hover:shadow-xl mt-4"
