@@ -22,11 +22,13 @@ const Project = ({
       <div className="container   ">
         <div className=" flex flex-col overflow-hidden border border-slate-200 shadow-xl rounded-xl ">
           <div className="w-full max-h-[19rem] overflow-hidden duration-300 ease-in-out hover:scale-102 ">
-            <img
-              src={image}
-              alt="project"
-              className=" w-full object-fit h-[19rem]  "
-            />{' '}
+            <a href={live} target="_blank" rel="noreferrer">
+              <img
+                src={image}
+                alt="project"
+                className=" w-full object-fit h-[19rem]  "
+              />{' '}
+            </a>
           </div>
           <div className={style}>
             <div>
