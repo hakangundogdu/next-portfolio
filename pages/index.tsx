@@ -13,6 +13,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center scroll-smooth	 md:max-w-screen-lg mx-auto py-2">
       <Head>
         <title>Hakan Gundogdu</title>
+        <meta property="og:image" content="/public/images/project-0-1.png" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -25,7 +26,6 @@ export default function Home() {
       <Skills />
       <About />
       <Projects />
-
       <Testimonials />
       <Footer />
     </div>
