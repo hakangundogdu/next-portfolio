@@ -15,14 +15,23 @@ const Projects = () => {
         'w-full bg-gradient-to-br from-blue-400  to-blue-900  flex flex-col justify-between px-8 py-8',
     },
     {
-      image: '/images/project-4.png',
+      image: '/images/project-6.png',
       title: 'Ecommerce Website',
-      description: 'React / Hooks / CSS Modules',
-      live: 'https://figma-ecommerce.vercel.app/',
-      code: 'https://github.com/hakangundogdu/figma-ecommerce',
+      description: 'React / Context / TailwindCSS',
+      live: 'https://my-store-ts.vercel.app/',
+      code: 'https://github.com/hakangundogdu/my-store',
       style:
         'w-full bg-gradient-to-br from-pink-600  to-rose-500  flex flex-col justify-between px-8 py-8',
     },
+    // {
+    //   image: '/images/project-4.png',
+    //   title: 'Ecommerce Website',
+    //   description: 'React / Hooks / CSS Modules',
+    //   live: 'https://figma-ecommerce.vercel.app/',
+    //   code: 'https://github.com/hakangundogdu/figma-ecommerce',
+    //   style:
+    //     'w-full bg-gradient-to-br from-pink-600  to-rose-500  flex flex-col justify-between px-8 py-8',
+    // },
 
     {
       image: '/images/project-3.png',
