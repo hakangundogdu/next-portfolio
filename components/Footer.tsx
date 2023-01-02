@@ -49,7 +49,7 @@ const Footer = () => {
           </a>
         </div>
         <h2 className=" text-center  mt-6 text-slate-400">
-          © 2022 Hakan Gundogdu
+          © {new Date().getFullYear()} Hakan Gundogdu
         </h2>
       </div>
     </div>
