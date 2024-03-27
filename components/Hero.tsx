@@ -10,7 +10,7 @@ import {
 const Hero = () => {
   return (
     <section className="container px-12 py-4 flex flex-col content-center   ">
-      <div className="mx-auto py-36 rounded-xl  px-auto w-full bg-top ">
+      <div className="mx-auto py-12 md:py-36 rounded-xl  px-auto w-full bg-top ">
         <div className=" mx-auto flex flex-col text-center animate-fade ">
           <h1 className="sm:text-4xl text-3xl mb-4 font-bold text-slate-900">
             Hakan Gundogdu
