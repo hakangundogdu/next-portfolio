@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import {
   FaGithub,
   FaLinkedinIn,
   FaArrowDown,
   FaTwitter,
   FaEnvelope,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -16,15 +16,15 @@ const Hero = () => {
             Hakan Gundogdu
           </h1>
           <p className=" text-lg sm:text-xl text-slate-500">
-            Frontend Developer based in{' '}
+            Frontend Developer based in{" "}
             <a
               className="hover:text-slate-900 text-slate-700"
               href="https://en.wikipedia.org/wiki/izmir"
               target="_blank"
               rel="noreferrer"
             >
-              {' '}
-              Izmir, Turkey{' '}
+              {" "}
+              Izmir, Turkey{" "}
             </a>
           </p>
         </div>
