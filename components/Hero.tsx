@@ -16,16 +16,7 @@ const Hero = () => {
             Hakan Gundogdu
           </h1>
           <p className=" text-lg sm:text-xl text-slate-500">
-            Frontend Developer based in{" "}
-            <a
-              className="hover:text-slate-900 text-slate-700"
-              href="https://en.wikipedia.org/wiki/izmir"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Izmir, Turkey{" "}
-            </a>
+            Software Engineer / Graphic Designer
           </p>
         </div>
         <div className="mx-auto flex mt-10 justify-center space-x-4 pt-6 animate-fade ">
