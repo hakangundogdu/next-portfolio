@@ -2,24 +2,34 @@ import React from "react";
 import {
   FaGithub,
   FaLinkedinIn,
-  FaArrowDown,
+  FaArrowRight,
   FaTwitter,
   FaEnvelope,
 } from "react-icons/fa";
+import Skills from "./Skills";
 
 const Hero = () => {
   return (
-    <section className="container px-12 py-4 flex flex-col content-center   ">
-      <div className="mx-auto py-12 md:py-36 rounded-xl  px-auto w-full bg-top ">
-        <div className=" mx-auto flex flex-col text-center animate-fade ">
-          <h1 className="sm:text-4xl text-3xl mb-4 font-bold text-slate-900">
+    <section className="container flex flex-col content-center p-6 max-w-2xl">
+      <div className="mx-auto pt-12 md:pt-24 rounded-xl  px-auto w-full bg-top ">
+        <div className=" mx-auto flex flex-col gap-4 animate-fade ">
+          <h1 className="sm:text-4xl text-3xl font-bold text-slate-900">
             Hakan Gundogdu
           </h1>
-          <p className=" text-lg sm:text-xl text-slate-500">
-            Software Engineer / Graphic Designer
+          <p className=" text-lg sm:text-2xl text-slate-600">
+            Full Stack Software Engineer
+          </p>
+
+          <p className="text-md md:text-lg text-slate-500">
+            Hi, I'm Hakan, a seasoned developer specializing in building
+            interactive, high-performance applications with React, Next.js,
+            Node.js, and TypeScript. With a unique blend of technical expertise
+            and creative insight I craft seamless, user-centric digital
+            experiences.
           </p>
         </div>
-        <div className="mx-auto flex mt-10 justify-center space-x-4 pt-6 animate-fade ">
+
+        <div className="mx-auto flex my-8 space-x-4 animate-fade ">
           <a
             href="https://www.linkedin.com/in/hakangundogdu1/"
             target="_blank"
@@ -36,14 +46,14 @@ const Hero = () => {
           >
             <FaGithub className="h-6 w-6" />
           </a>
-          <a
+          {/* <a
             href="https://www.twitter.com/hakancode/"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center bg-slate-100 text-slate-500 0 py-3 px-3  hover:bg-slate-700 hover:text-white rounded-xl text-base  mt-4 md:mt-0 hover:shadow-xl"
           >
             <FaTwitter className="h-6 w-6" />
-          </a>
+          </a> */}
           <a
             href="mailto:hakan.gundogdu@gmail.com"
             target="_blank"
@@ -53,6 +63,7 @@ const Hero = () => {
             <FaEnvelope className="h-6 w-6" />
           </a>
         </div>
+        <Skills />
       </div>
     </section>
   );
